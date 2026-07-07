@@ -33,6 +33,15 @@ VOCAB = {
     20: "what",
     21: "house",
     22: "where",
+    23: "i",
+    24: "sign_language",
+    25: "learn",
+    26: "understand",
+    27: "thank_you",
+    28: "bye",
+    29: "doctor",
+    30: "him",
+    31: "help",
 }
 
 # Reverse lookup: gloss string → integer label
@@ -262,6 +271,94 @@ SIGNS = {
         "glosses":  ["where"],
         "labels":   [GLOSS_TO_IDX["where"]],
         "data_dir": os.path.join(DATA_DIR, "where"),
+    },
+
+    # ── I Sign Language Learn ────────────────────────────────────────────
+    "i_sign_language_learn": {
+        "display":  "i sign language learn",
+        "glosses":  ["i", "sign_language", "learn"],
+        "labels":   [GLOSS_TO_IDX["i"], GLOSS_TO_IDX["sign_language"], GLOSS_TO_IDX["learn"]],
+        "data_dir": os.path.join(DATA_DIR, "i_sign_language_learn"),
+    },
+    
+    # ── You Understand ───────────────────────────────────────────────────
+    "you_understand": {
+        "display":  "you understand",
+        "glosses":  ["you", "understand"],
+        "labels":   [GLOSS_TO_IDX["you"], GLOSS_TO_IDX["understand"]],
+        "data_dir": os.path.join(DATA_DIR, "you_understand"),
+    },
+
+    # ── Thank You Bye ────────────────────────────────────────────────────
+    "thank_you_bye": {
+        "display":  "thank you bye",
+        "glosses":  ["thank_you", "bye"],
+        "labels":   [GLOSS_TO_IDX["thank_you"], GLOSS_TO_IDX["bye"]],
+        "data_dir": os.path.join(DATA_DIR, "thank_you_bye"),
+    },
+
+    # ── Doctor Him Help Please ───────────────────────────────────────────
+    "doctor_him_help_please": {
+        "display":  "doctor him help please",
+        "glosses":  ["doctor", "him", "help", "please"],
+        "labels":   [GLOSS_TO_IDX["doctor"], GLOSS_TO_IDX["him"],
+                     GLOSS_TO_IDX["help"], GLOSS_TO_IDX["please"]],
+        "data_dir": os.path.join(DATA_DIR, "doctor_him_help_please"),
+    },
+
+    "i": {
+        "display":  "i",
+        "glosses":  ["i"],
+        "labels":   [GLOSS_TO_IDX["i"]],
+        "data_dir": os.path.join(DATA_DIR, "i"),
+    },
+    "sign_language": {
+        "display":  "sign language",
+        "glosses":  ["sign_language"],
+        "labels":   [GLOSS_TO_IDX["sign_language"]],
+        "data_dir": os.path.join(DATA_DIR, "sign_language"),
+    },
+    "learn": {
+        "display":  "learn",
+        "glosses":  ["learn"],
+        "labels":   [GLOSS_TO_IDX["learn"]],
+        "data_dir": os.path.join(DATA_DIR, "learn"),
+    },
+    "understand": {
+        "display":  "understand",
+        "glosses":  ["understand"],
+        "labels":   [GLOSS_TO_IDX["understand"]],
+        "data_dir": os.path.join(DATA_DIR, "understand"),
+    },
+    "thank_you": {
+        "display":  "thank you",
+        "glosses":  ["thank_you"],
+        "labels":   [GLOSS_TO_IDX["thank_you"]],
+        "data_dir": os.path.join(DATA_DIR, "thank_you"),
+    },
+    "bye": {
+        "display":  "bye",
+        "glosses":  ["bye"],
+        "labels":   [GLOSS_TO_IDX["bye"]],
+        "data_dir": os.path.join(DATA_DIR, "bye"),
+    },
+    "doctor": {
+        "display":  "doctor",
+        "glosses":  ["doctor"],
+        "labels":   [GLOSS_TO_IDX["doctor"]],
+        "data_dir": os.path.join(DATA_DIR, "doctor"),
+    },
+    "him": {
+        "display":  "him",
+        "glosses":  ["him"],
+        "labels":   [GLOSS_TO_IDX["him"]],
+        "data_dir": os.path.join(DATA_DIR, "him"),
+    },
+    "help": {
+        "display":  "help",
+        "glosses":  ["help"],
+        "labels":   [GLOSS_TO_IDX["help"]],
+        "data_dir": os.path.join(DATA_DIR, "help"),
     },
 }
 
