@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Dataset (too large for GitHub — share separately as a .zip)
+data/
+data_discard/
+
+# Model checkpoints (large binary files)
+model_checkpoint.pt
+model_v2_checkpoint.pt
+
+# MediaPipe task models (large binary files — download separately)
+face_landmarker.task
+hand_landmarker.task
+pose_landmarker_lite.task
+
+# Training logs (auto-generated)
+training_log.csv
+training_log_v2.csv
+
+# Archives
+*.7z
+*.zip
+
+# IDE
+.vscode/
+.idea/
